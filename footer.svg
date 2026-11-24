@@ -5,7 +5,7 @@
 </style>
 <defs><linearGradient id="a" x1="0" x2="1"><stop offset="0" stop-color="#1f6feb"/><stop offset="1" stop-color="#8957e5"/></linearGradient></defs>
 <text x="600" y="62" text-anchor="middle" fill="#e6edf3" font-family="Georgia, 'Times New Roman', serif" font-size="30" font-style="italic">Let’s build something intelligent.</text>
-<text x="600" y="94" text-anchor="middle" fill="#8b949e" font-size="15">Always happy to talk ML, NLP &amp; data</text>
+<text x="600" y="94" text-anchor="middle" fill="#8b949e" font-size="15">Always happy to talk GenAI, agents &amp; data</text>
 <path class="w" opacity=".35" fill="url(#a)" d="M0 160 C150 130 300 190 450 160 S750 130 900 160 S1200 190 1350 160 V200 H0Z"/>
 <path class="w w2" opacity=".7" fill="url(#a)" d="M0 175 C200 150 350 200 550 175 S850 150 1050 175 S1300 195 1400 175 V200 H0Z"/>
 </svg>

@@ -30,15 +30,15 @@
  <rect width="1199" height="439" x=".5" y=".5" rx="22" fill="none" stroke="#30363d"/>
 </g>
 <g font-family="'Segoe UI', -apple-system, 'Helvetica Neue', Arial, sans-serif">
- <text x="80" y="110" class="fade" style="animation-delay:.1s" fill="#58a6ff" font-size="15" font-weight="600" letter-spacing="5">PORTFOLIO  ·  AI &amp; DATA</text>
+ <text x="80" y="110" class="fade" style="animation-delay:.1s" fill="#58a6ff" font-size="15" font-weight="600" letter-spacing="5">PORTFOLIO  ·  AI &amp; DATA SCIENCE</text>
  <text x="76" y="200" class="fade" style="animation-delay:.3s" fill="url(#txt)" font-family="Georgia, 'Times New Roman', serif" font-size="84">Ranim Mhiri</text>
  <line x1="82" y1="232" x2="342" y2="232" stroke="url(#ln)" stroke-width="3" stroke-linecap="round" class="line"/>
- <text x="80" y="280" class="fade" style="animation-delay:.6s" fill="#e6edf3" font-size="24" font-weight="300">Machine Learning  ·  NLP  ·  LLMs &amp; RAG</text>
+ <text x="80" y="280" class="fade" style="animation-delay:.6s" fill="#e6edf3" font-size="24" font-weight="300">Data Science  ·  LLMs &amp; GenAI  ·  RAG  ·  Agentic AI</text>
  <text x="80" y="316" class="fade" style="animation-delay:.8s" fill="#8b949e" font-size="17">MSc AI &amp; Data — Université Paris Dauphine-PSL</text>
  <g class="fade" style="animation-delay:1.1s">
-  <rect x="80" y="348" width="300" height="38" rx="19" fill="#0f2a1a" stroke="#238636"/>
+  <rect x="80" y="348" width="350" height="38" rx="19" fill="#0f2a1a" stroke="#238636"/>
   <circle cx="102" cy="367" r="5" fill="#3fb950" class="dot"/>
-  <text x="117" y="373" fill="#7ee787" font-size="15" font-weight="600">Open to ML / NLP internships</text>
+  <text x="117" y="373" fill="#7ee787" font-size="15" font-weight="600">Open to AI / Data Science internships</text>
  </g>
 </g>
 </svg>
