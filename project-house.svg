@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="580" height="310" viewBox="0 0 580 310" font-family="'Segoe UI', -apple-system, 'Helvetica Neue', Arial, sans-serif">
+<style>
+.sh{animation:sh 5s ease-in-out infinite}@keyframes sh{0%{transform:translateX(-200px)}60%,100%{transform:translateX(620px)}}
+.fade{animation:up .9s cubic-bezier(.2,.7,.2,1) backwards}@keyframes up{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:translateY(0)}}
+</style>
+<defs>
+ <linearGradient id="a" x1="0" x2="1"><stop offset="0" stop-color="#f2cc60"/><stop offset="1" stop-color="#f78166"/></linearGradient>
+ <radialGradient id="glow" cx="1" cy="0" r="1"><stop offset="0" stop-color="#f78166" stop-opacity=".22"/><stop offset="1" stop-color="#f78166" stop-opacity="0"/></radialGradient>
+ <linearGradient id="s" x1="0" x2="1"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".9"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+ <clipPath id="c"><rect x="1" y="1" width="578" height="308" rx="18"/></clipPath>
+</defs>
+<g clip-path="url(#c)">
+ <rect width="580" height="310" fill="#161b22"/>
+ <rect width="580" height="310" fill="url(#glow)"/>
+ <rect width="580" height="4" fill="url(#a)"/>
+ <rect class="sh" width="160" height="4" fill="url(#s)"/>
+</g>
+<rect x=".5" y=".5" width="579" height="309" rx="18" fill="none" stroke="#30363d"/>
+<g class="fade" style="animation-delay:.1s">
+ <text x="36" y="52" fill="#f2cc60" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="14">02  /  REGRESSION · KAGGLE</text>
+ <text x="36" y="98" fill="#f0f6fc" font-family="Georgia, 'Times New Roman', serif" font-size="32">House Prices</text>
+ <text x="544" y="62" text-anchor="end" fill="url(#a)" font-size="34" font-weight="700">0.106</text>
+ <text x="544" y="84" text-anchor="end" fill="#8b949e" font-size="12" letter-spacing="2">RMSLE (CV)</text>
+ <text y="146" fill="#8b949e" font-size="16"><tspan x="36" dy="0">Feature engineering, 7-model benchmark</tspan><tspan x="36" dy="24">and a stacking ensemble to predict</tspan><tspan x="36" dy="24">house sale prices in Ames, Iowa.</tspan></text>
+ <rect x="36" y="250" width="124" height="30" rx="15" fill="#0d1117" stroke="#30363d"/><text x="98" y="270" text-anchor="middle" fill="#c9d1d9" font-size="13">scikit-learn</text><rect x="168.39999999999998" y="250" width="83" height="30" rx="15" fill="#0d1117" stroke="#30363d"/><text x="210" y="270" text-anchor="middle" fill="#c9d1d9" font-size="13">XGBoost</text><rect x="259.79999999999995" y="250" width="92" height="30" rx="15" fill="#0d1117" stroke="#30363d"/><text x="306" y="270" text-anchor="middle" fill="#c9d1d9" font-size="13">CatBoost</text><rect x="359.4" y="250" width="92" height="30" rx="15" fill="#0d1117" stroke="#30363d"/><text x="405" y="270" text-anchor="middle" fill="#c9d1d9" font-size="13">Stacking</text>
+</g>
+</svg>

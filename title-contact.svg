@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="90" viewBox="0 0 1200 90" font-family="'Segoe UI', -apple-system, 'Helvetica Neue', Arial, sans-serif">
+<style>.l{stroke-dasharray:900;animation:d 1.6s .2s ease backwards}@keyframes d{from{stroke-dashoffset:900}to{stroke-dashoffset:0}}</style>
+<defs><linearGradient id="ln" gradientUnits="userSpaceOnUse" x1="200" x2="1160" y1="0" y2="0"><stop offset="0" stop-color="#58a6ff"/><stop offset=".5" stop-color="#a371f7"/><stop offset="1" stop-color="#a371f7" stop-opacity="0"/></linearGradient></defs>
+<text x="40" y="54" fill="#58a6ff" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', monospace" font-size="16">04</text>
+<text x="82" y="56" fill="#e6edf3" font-family="Georgia, 'Times New Roman', serif" font-size="34">Get in touch</text>
+<line x1="316" y1="45" x2="1160" y2="45" stroke="url(#ln)" stroke-width="1.5" class="l"/>
+</svg>
